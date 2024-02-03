@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  background-color: blanchedalmond;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+  color: black;
+  padding-top: 4rem;
+}
+
+.todo_wrapper{
+  
+  margin-right: 7rem;
+  font-size: 1rem;
+  color:  #585858;
+  list-style: none;
+
+}
+.todo_item{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
+}
+.todo_item > button{
+  margin:0 5px;
+}
+.add-button{
+  position: absolute;
+  top:50%;
+  background-color:#0a0a23;
+  color: #fff;
+  border:none;
+  border-radius:10px;
+  box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
